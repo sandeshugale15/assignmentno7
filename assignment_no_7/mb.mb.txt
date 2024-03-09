@@ -1,0 +1,16 @@
+//for starrting mongodb
+
+mongod
+//for new terminal
+mongo
+
+//new database named student_tasks using the use command:
+use student_tasks
+
+//using the student_tasks database. Next, create the collections courses and tasks using the db.createCollection() method:
+db.createCollection('courses')
+db.createCollection('tasks')
+
+
+show dbs
+show collections
